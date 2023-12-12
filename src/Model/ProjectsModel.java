@@ -4,12 +4,11 @@ package Model;
 import java.util.List;
 import Projects.Project;  // Import the Project class
 
+
+import Projects.ViewHandler;
+
 public interface ProjectsModel {
-  List<Project> getProjects();
+  // Other methods in your interface
 
-  void addProject(Project project);
-
-  void removeProject(Project project);
-
-  // Add other necessary methods for your application
+  void setViewHandler(ViewHandler viewHandler);
 }
