@@ -1,0 +1,19 @@
+<html>
+<head><title>Projects</title></head>
+<body>
+  <div class="project">
+    <h2>Project ID: 1001</h2>
+    <p>Type: Industrial</p>
+    <p>Start Date: 23/03/2003</p>
+    <p>End Date: 00/00/0000</p>
+    <p>Expected Duration: 00/30/0000</p>
+    <p>Estimated Date: 23/09/2005</p>
+    <p>Estimated Price: $2000000.0</p>
+    <p>Project Status: New Build</p>
+    <p>Is Finished: false</p>
+    <p>Man Hours Used: 0.0</p>
+    <p>Square Meters: 0.0</p>
+    <p>Facility Type: null</p>
+  </div>
+</body>
+</html>

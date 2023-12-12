@@ -36,19 +36,23 @@ public class AddMenuController {
       switch (projectType) {
         case "Residential":
           budgetLabel.setText("Budget");
-          durationLabel.setText("Duration");
+          durationLabel.setText("Duration (months)");
           buildingSizeLabel.setText("Size");
           kitchensLabel.setText("Number of Kitchens");
           bathroomsLabel.setText("Number of Bathrooms");
           plumbingLabel.setText("Other Rooms with Plumbing");
-          renovationLabel.setText("New or Renovation");
+          renovationLabel.setText("Is new?");
           setVisibility(true);
           setVisibilityTextField(true);
+          kitchensTextField.setVisible(true);
+          bathroomsTextField.setVisible(true);
+          plumbingTextField.setVisible(true);
+          renovationTextField.setVisible(true);
           break;
         case "Commercial":
           budgetLabel.setText("Budget");
-          durationLabel.setText("Duration");
-          buildingSizeLabel.setText("Size");
+          durationLabel.setText("Duration (months)");
+          buildingSizeLabel.setText("Size (square meters)");
           kitchensLabel.setText("Floors");
           bathroomsLabel.setText("Use of the Building");
           setVisibility(true);
@@ -56,17 +60,17 @@ public class AddMenuController {
           break;
         case "Industrial":
           budgetLabel.setText("Budget");
-          durationLabel.setText("Duration");
-          buildingSizeLabel.setText("Size");
+          durationLabel.setText("Duration (months)");
+          buildingSizeLabel.setText("Size (square meters)");
           kitchensLabel.setText("Type of Facility");
           setVisibility(true);
           setVisibilityTextField(true);
           break;
         case "Road Construction":
           budgetLabel.setText("Budget");
-          durationLabel.setText("Duration");
-          buildingSizeLabel.setText("Length");
-          kitchensLabel.setText("Width");
+          durationLabel.setText("Duration (months)");
+          buildingSizeLabel.setText("Length (km)");
+          kitchensLabel.setText("Width (m)");
           bathroomsLabel.setText("Bridges or Tunnels");
           plumbingLabel.setText("Challenges");
           setVisibility(true);
@@ -103,10 +107,10 @@ public class AddMenuController {
     budgetTextField.setVisible(visible);
     durationTextField.setVisible(visible);
     buildingSizeTextField.setVisible(visible);
-    kitchensTextField.setVisible(visible);
-    bathroomsTextField.setVisible(visible);
-    plumbingTextField.setVisible(visible);
-    renovationTextField.setVisible(visible);
+    kitchensTextField.setVisible(false); // Hide by default
+    bathroomsTextField.setVisible(false); // Hide by default
+    plumbingTextField.setVisible(false); // Hide by default
+    renovationTextField.setVisible(false); // Hide by default
 
     if (!visible) {
       clearTextFields();

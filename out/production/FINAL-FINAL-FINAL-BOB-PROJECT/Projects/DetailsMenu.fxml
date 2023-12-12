@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox prefHeight="686.0" prefWidth="415.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label text="Details">
+               <font>
+                  <Font name="System Bold Italic" size="33.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="150.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="73.25" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="73.0" prefWidth="232.0">
+               <children>
+                  <Label text="ID">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="73.0" prefWidth="232.0">
+               <children>
+                  <TextField />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="73.25" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <Label text="Budget">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <TextField />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="73.25" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <Label text="Duration">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <TextField />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="73.25" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <Label text="Size of the building">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <TextField />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="73.25" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <Label text="Number of kitchens">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <TextField />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="73.25" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <Label text="Number of bathrooms">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <TextField />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="73.25" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <Label text="Other rooms with plumbing">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="74.0" prefWidth="230.0">
+               <children>
+                  <TextField prefHeight="26.0" prefWidth="150.0" />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="73.25" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <Label text="New or renovation">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="232.0">
+               <children>
+                  <TextField />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
