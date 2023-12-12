@@ -67,8 +67,6 @@ public class ProjectManager
 
     if (viewHandler != null && viewHandler.getProjectsViewController() != null) {
 
-      viewHandler.getProjectsViewController().addProjectToTableView(project);
-      viewHandler.getProjectsViewController().projectAdded(project, isFinished);
     } else {
       System.err.println("Error: viewHandler or ProjectsViewController is not initialized");
     }

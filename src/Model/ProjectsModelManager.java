@@ -1,43 +1,41 @@
 
 package Model;
 
-import java.util.ArrayList;
-import java.util.List;
-
-// Import the Project class
 import Projects.Project;
+import Projects.ProjectManager;
 import Projects.ViewHandler;
 
-import javax.swing.text.View;
+import java.util.List;
 
 public class ProjectsModelManager implements ProjectsModel {
-  private List<Project> projects;
-  private ViewHandler viewHandler;
+  private ProjectManager projectManager;
 
   public ProjectsModelManager() {
-    this.projects = new ArrayList<>();
-    // Initialize projects or load them from a data source if needed
+    this.projectManager = new ProjectManager();
   }
 
-
-  public List<Project> getProjects() {
-    return projects;
+  @Override
+  public ProjectManager getProjectManager() {
+    return projectManager;
   }
 
-  public void addProject(Project project) {
-    projects.add(project);
+  @Override
+  public List<Project> getAllProjects() {
+    // Implement the method to get all projects
+    return projectManager.getAllProjects();
   }
 
-
-  public void removeProject(Project project) {
-    projects.remove(project);
+  @Override
+  public Project findProjectById(double projectId) {
+    // Implement the method to find a project by ID
+    return projectManager.findProjectById(projectId);
   }
 
+  // ... other methods ...
 
-  public void setViewHandler(ViewHandler viewHandler)
-  {
-    this.viewHandler = viewHandler;
+  @Override
+  public void setViewHandler(ViewHandler viewHandler) {
+    // Implement the method to set the view handler
   }
 
-  // Implement other methods if needed
 }

@@ -1,14 +1,21 @@
 // ProjectsModel.java
 package Model;
 
-import java.util.List;
-import Projects.Project;  // Import the Project class
-
-
+import Projects.ProjectManager;
 import Projects.ViewHandler;
+import Projects.Project;
+import java.util.List;
 
 public interface ProjectsModel {
-  // Other methods in your interface
-
   void setViewHandler(ViewHandler viewHandler);
+
+  // Add this method to get the ProjectManager
+  ProjectManager getProjectManager();
+
+  // Other methods in your interface
+  List<Project> getAllProjects();
+
+  Project findProjectById(double projectId);
+
+  // ... other methods ...
 }

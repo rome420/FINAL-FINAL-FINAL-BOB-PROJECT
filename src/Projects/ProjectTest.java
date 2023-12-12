@@ -1,5 +1,8 @@
 package Projects;
 
+import Model.ProjectsModel;
+import javafx.stage.Stage;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +12,9 @@ public class ProjectTest {
     /* there are multiple different projects created here i would say that project 5
     is the structure we should standardize but each of them have different structures
     on how to create them and they all work*/
+
+
+
 
     ProjectManager projectManager = new ProjectManager();
     ProjectList projectList = new ProjectList();

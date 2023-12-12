@@ -1,11 +1,18 @@
 package Projects;
 
+import Model.ProjectsModelManager;
 import javafx.application.Application;
 import javafx.stage.Stage;
-import Model.ProjectsModelManager;
+
 public class main extends Application {
 
   public static void main(String[] args) {
+    // Launch the JavaFX application from the main method
+    launch(args);
+  }
+
+  @Override
+  public void start(Stage primaryStage) {
     // Create an instance of ProjectsModelManager, the class that implements ProjectsModel
     ProjectsModelManager model = new ProjectsModelManager();
 
@@ -15,13 +22,7 @@ public class main extends Application {
     // Create an instance of ProjectManager and pass the viewHandler to it
     ProjectManager projectManager = new ProjectManager(viewHandler);
 
-    // Launch the JavaFX application
-    launch(args);
-  }
-
-  @Override
-  public void start(Stage primaryStage) {
-    // This is where you can start your JavaFX application
-    // You can use primaryStage to set up your UI components
+    // Start the JavaFX application
+    viewHandler.start(primaryStage);
   }
 }
