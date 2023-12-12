@@ -46,45 +46,45 @@ class Residential extends Project
 
 
   /**
-   * Getter of the square meters of the residential building.
+   * Getter of the square meters of the residential building
    *
-   * @return The square meters.
+   * @return The square meters
    */
   public double getSquareMeters() {
     return squareMeters;
   }
 
   /**
-   * Getter of the number of kitchens in the residential building.
+   * Getter of the number of kitchens in the residential building
    *
-   * @return The number of kitchens.
+   * @return The number of kitchens
    */
   public int getNumberOfKitchens() {
     return numberOfKitchens;
   }
 
   /**
-   * Getter of the number of bathrooms in the residential building.
+   * Getter of the number of bathrooms in the residential building
    *
-   * @return The number of bathrooms.
+   * @return The number of bathrooms
    */
   public int getNumberOfBathrooms() {
     return numberOfBathrooms;
   }
 
   /**
-   * Getter of the number of other rooms with plumbing in the residential building.
+   * Getter of the number of other rooms with plumbing in the residential building
    *
-   * @return The number of other rooms with plumbing.
+   * @return The number of other rooms with plumbing
    */
   public int getOtherRoomsWithPlumbing() {
     return otherRoomsWithPlumbing;
   }
 
   /**
-   * Checks if the residential building is a new build.
+   * Checks if the residential building is a new build
    *
-   * @return True if it's a new build, false otherwise.
+   * @return True if it's a new build, false otherwise
    */
   public boolean getIsNewBuild() {
     return isNewBuild;
@@ -92,45 +92,45 @@ class Residential extends Project
 
 
   /**
-   * Sets the square meters of the residential building.
+   * Sets the square meters of the residential building
    *
-   * @param squareMeters The square meters to set.
+   * @param squareMeters The square meters to set
    */
   public void setSquareMeters(double squareMeters) {
     this.squareMeters = squareMeters;
   }
 
   /**
-   * Sets the number of kitchens in the residential building.
+   * Sets the number of kitchens in the residential building
    *
-   * @param numberOfKitchens The number of kitchens to set.
+   * @param numberOfKitchens The number of kitchens to set
    */
   public void setNumberOfKitchens(int numberOfKitchens) {
     this.numberOfKitchens = numberOfKitchens;
   }
 
   /**
-   * Sets the number of bathrooms in the residential building.
+   * Sets the number of bathrooms in the residential building
    *
-   * @param numberOfBathrooms The number of bathrooms to set.
+   * @param numberOfBathrooms The number of bathrooms to set
    */
   public void setNumberOfBathrooms(int numberOfBathrooms) {
     this.numberOfBathrooms = numberOfBathrooms;
   }
 
   /**
-   * Sets the number of other rooms with plumbing in the residential building.
+   * Sets the number of other rooms with plumbing in the residential building
    *
-   * @param otherRoomsWithPlumbing The number of other rooms with plumbing to set.
+   * @param otherRoomsWithPlumbing The number of other rooms with plumbing to set
    */
   public void setOtherRoomsWithPlumbing(int otherRoomsWithPlumbing) {
     this.otherRoomsWithPlumbing = otherRoomsWithPlumbing;
   }
 
   /**
-   * Sets whether the residential building is a new build.
+   * Sets whether the residential building is a new build
    *
-   * @param isNewBuild True if it's a new build, false otherwise.
+   * @param isNewBuild True if it's a new build, false otherwise
    */
   public void setNewBuild(boolean isNewBuild) {
     this.isNewBuild = isNewBuild;
@@ -138,9 +138,9 @@ class Residential extends Project
 
 
   /**
-   * A string method representation of the Residential project.
+   * A string method representation of the Residential project
    *
-   * @return A string containing details about the Residential project.
+   * @return A string containing details about the Residential project
    */
   @Override public String toString()
  {

@@ -53,9 +53,9 @@ public class Project
 
   // Getter methods...
   /**
-   * Getter of the type of the project.
+   * Getter of the type of the project
    *
-   * @return The project type.
+   * @return The project type
    */
   public String getProjectType()
   {
@@ -63,9 +63,9 @@ public class Project
   }
 
   /**
-   * Getter of the start date of the project.
+   * Getter of the start date of the project
    *
-   * @return The start date.
+   * @return The start date
    */
   public MyDate getStartDate()
   {
@@ -73,9 +73,9 @@ public class Project
   }
 
   /**
-   * Getter of the end date of the project.
+   * Getter of the end date of the project
    *
-   * @return The end date.
+   * @return The end date
    */
   public MyDate getEndDate()
   {
@@ -83,9 +83,9 @@ public class Project
   }
 
   /**
-   * Getter of the expected duration of the project.
+   * Getter of the expected duration of the project
    *
-   * @return The expected duration.
+   * @return The expected duration
    */
   public MyDate expectedDuration()
   {
@@ -93,16 +93,16 @@ public class Project
   }
 
   /**
-   * Getter of the estimated completion date of the project.
+   * Getter of the estimated completion date of the project
    *
-   * @return The estimated completion date.
+   * @return The estimated completion date
    */
   public MyDate getEstimatedDate(){return estimatedDate;}
 
   /**
-   * Getter of the estimated cost of the project.
+   * Getter of the estimated cost of the project
    *
-   * @return The estimated cost.
+   * @return The estimated cost
    */
   public double getEstimatedPrice()
   {
@@ -110,9 +110,9 @@ public class Project
   }
 
   /**
-   * Getter the status of the project.
+   * Getter the status of the project
    *
-   * @return The project status.
+   * @return The project status
    */
   public String getProjectStatus()
   {
@@ -121,9 +121,9 @@ public class Project
 
 
   /**
-   * Gets whether the project is finished.
+   * Gets whether the project is finished
    *
-   * @return True if the project is finished, false otherwise.
+   * @return True if the project is finished, false otherwise
    */
   public Boolean isFinished()
   {
@@ -131,9 +131,9 @@ public class Project
   }
 
   /**
-   * Getter of the unique identifier for the project.
+   * Getter of the unique identifier for the project
    *
-   * @return The project ID.
+   * @return The project ID
    */
   public int getId()
   {
@@ -141,9 +141,9 @@ public class Project
   }
 
   /**
-   * Getter of the number of man-hours used in the project.
+   * Getter of the number of man-hours used in the project
    *
-   * @return The man-hours used.
+   * @return The man-hours used
    */
   public double getManHoursUsed()
   {
@@ -152,9 +152,9 @@ public class Project
 
   // Setter methods...
   /**
-   * Sets the type of the project.
+   * Sets the type of the project
    *
-   * @param projectType The project type to set.
+   * @param projectType The project type to set
    */
   public void setProjectType(String projectType)
   {
@@ -164,9 +164,9 @@ public class Project
 
 
   /**
-   * Sets the start date of the project.
+   * Sets the start date of the project
    *
-   * @param startDate The start date to set.
+   * @param startDate The start date to set
    */
   public void setStartDate(MyDate startDate) {
     this.startDate = startDate;
@@ -174,10 +174,10 @@ public class Project
   }
 
   /**
-   * Sets the end date of the project.
+   * Sets the end date of the project
    *
-   * @param endDate The end date to set.
-   * @throws IllegalArgumentException if the end date is before the start date.
+   * @param endDate The end date to set
+   * @throws IllegalArgumentException if the end date is before the start date
    */
   public void setEndDate(MyDate endDate) throws IllegalArgumentException {
     if (startDate != null && endDate != null && endDate.isBefore(startDate)) {
@@ -188,9 +188,9 @@ public class Project
 
 
   /**
-   * Sets the expected duration of the project.
+   * Sets the expected duration of the project
    *
-   * @param expectedDuration The expected duration to set.
+   * @param expectedDuration The expected duration to set
    */
   public void setExpectedDuration(MyDate expectedDuration) {
     if (expectedDuration.getMonth() < 0) {
@@ -206,7 +206,7 @@ public class Project
   }
 
   /**
-   * Calculates and sets the estimated completion date based on start date and expected duration.
+   * Calculates and sets the estimated completion date based on start date and expected duration
    */
   public void calculateAndSetEstimatedDate() {
     // Ensure both startDate and expectedDuration are set
@@ -216,10 +216,10 @@ public class Project
   }
 
   /**
-   * Sets the estimated cost of the project.
+   * Sets the estimated cost of the project
    *
-   * @param estimatedPrice The estimated cost to set.
-   * @throws IllegalArgumentException if the estimated price is negative.
+   * @param estimatedPrice The estimated cost to set
+   * @throws IllegalArgumentException if the estimated price is negative
    */
   public void setEstimatedPrice(double estimatedPrice) {
     if (estimatedPrice < 0) {
@@ -229,9 +229,9 @@ public class Project
   }
 
   /**
-   * Sets the status of the project.
+   * Sets the status of the project
    *
-   * @param projectStatus The project status to set.
+   * @param projectStatus The project status to set
    */
 
   public void setProjectStatus(String projectStatus)
@@ -240,9 +240,9 @@ public class Project
   }
 
   /**
-   * Sets whether the project is finished.
+   * Sets whether the project is finished
    *
-   * @param isFinished True if the project is finished, false otherwise.
+   * @param isFinished True if the project is finished, false otherwise
    */
   public void setFinishedProjects(boolean isFinished)
   {
@@ -250,9 +250,9 @@ public class Project
   }
 
   /**
-   * Sets the unique identifier for the project.
+   * Sets the unique identifier for the project
    *
-   * @param projectId The project ID to set.
+   * @param projectId The project ID to set
    */
   public void setProjectId(int projectId)
   {
@@ -260,10 +260,10 @@ public class Project
   }
 
   /**
-   * Sets the number of man-hours used in the project.
+   * Sets the number of man-hours used in the project
    *
-   * @param manHoursUsed The man-hours used to set.
-   * @throws IllegalArgumentException if man-hours used is negative.
+   * @param manHoursUsed The man-hours used to set
+   * @throws IllegalArgumentException if man-hours used is negative
    */
   public void setManHoursUsed(double manHoursUsed) throws IllegalArgumentException {
     if (manHoursUsed < 0) {
@@ -273,9 +273,9 @@ public class Project
   }
 
   /**
-   * Generates a progress report for the project.
+   * Generates a progress report for the project
    *
-   * @return A string containing details about the project's progress.
+   * @return A string containing details about the project's progress
    */
   public String generateProgressReport() {
     StringBuilder report = new StringBuilder();

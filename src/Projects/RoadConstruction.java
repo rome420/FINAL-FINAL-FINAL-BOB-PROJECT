@@ -15,21 +15,21 @@ public class RoadConstruction extends Project
   private String challenges;
 
   /**
-   * Thirteen-argument Constructor of a Road Construction project with specified attributes.
+   * Thirteen-argument Constructor of a Road Construction project with specified attributes
    *
-   * @param projectType              The type of the project.
-   * @param startDate                The start date of the project.
-   * @param endDate                  The end date of the project.
-   * @param expectedDuration         The expected duration of the project.
-   * @param estimatedDate            The estimated completion date of the project.
-   * @param estimatedPrice           The estimated cost of the project.
-   * @param projectStatus            The status of the project.
-   * @param projectId                The unique identifier for the project.
-   * @param manHoursUsed             The number of man-hours used in the project.
-   * @param roadLengthKilometers     The length of the road in kilometers.
-   * @param roadWidthMeters          The width of the road in meters.
-   * @param numberOfRoadAlterations  The number of alterations made to the road during construction.
-   * @param challenges               The challenges faced during road construction.
+   * @param projectType              The type of the project
+   * @param startDate                The start date of the project
+   * @param endDate                  The end date of the project
+   * @param expectedDuration         The expected duration of the project
+   * @param estimatedDate            The estimated completion date of the project
+   * @param estimatedPrice           The estimated cost of the project
+   * @param projectStatus            The status of the project
+   * @param projectId                The unique identifier for the project
+   * @param manHoursUsed             The number of man-hours used in the project
+   * @param roadLengthKilometers     The length of the road in kilometers
+   * @param roadWidthMeters          The width of the road in meters
+   * @param numberOfRoadAlterations  The number of alterations made to the road during construction
+   * @param challenges               The challenges faced during road construction
    */
   public RoadConstruction(String projectType, MyDate startDate, MyDate endDate, MyDate expectedDuration,
       MyDate estimatedDate,
@@ -45,36 +45,36 @@ public class RoadConstruction extends Project
   }
 
   /**
-   * Getter of the length of the road in kilometers.
+   * Getter of the length of the road in kilometers
    *
-   * @return The road length in kilometers.
+   * @return The road length in kilometers
    */
   public double getRoadLengthKilometers() {
     return roadLengthKilometers;
   }
 
   /**
-   * Getter of the width of the road in meters.
+   * Getter of the width of the road in meters
    *
-   * @return The road width in meters.
+   * @return The road width in meters
    */
   public double getRoadWidthMeters() {
     return roadWidthMeters;
   }
 
   /**
-   * Getter the number of alterations made to the road during construction.
+   * Getter the number of alterations made to the road during construction
    *
-   * @return The number of road alterations.
+   * @return The number of road alterations
    */
   public int getNumberOfRoadAlterations() {
     return numberOfRoadAlterations;
   }
 
   /**
-   * Getter the challenges faced during road construction.
+   * Getter the challenges faced during road construction
    *
-   * @return The challenges during road construction.
+   * @return The challenges during road construction
    */
   public String getChallenges() {
     return challenges;
@@ -83,45 +83,45 @@ public class RoadConstruction extends Project
 
 
   /**
-   * Sets the length of the road in kilometers.
+   * Sets the length of the road in kilometers
    *
-   * @param roadLengthKilometers The road length in kilometers to set.
+   * @param roadLengthKilometers The road length in kilometers to set
    */
   public void setRoadLengthKilometers(double roadLengthKilometers) {
     this.roadLengthKilometers = roadLengthKilometers;
   }
 
   /**
-   * Sets the width of the road in meters.
+   * Sets the width of the road in meters
    *
-   * @param roadWidthMeters The road width in meters to set.
+   * @param roadWidthMeters The road width in meters to set
    */
   public void setRoadWidthMeters(double roadWidthMeters) {
     this.roadWidthMeters = roadWidthMeters;
   }
 
   /**
-   * Sets the number of alterations made to the road during construction.
+   * Sets the number of alterations made to the road during construction
    *
-   * @param numberOfRoadAlterations The number of road alterations to set.
+   * @param numberOfRoadAlterations The number of road alterations to set
    */
   public void setNumberOfRoadAlterations(int numberOfRoadAlterations) {
     this.numberOfRoadAlterations = numberOfRoadAlterations;
   }
 
   /**
-   * Sets the challenges faced during road construction.
+   * Sets the challenges faced during road construction
    *
-   * @param challenges The challenges during road construction to set.
+   * @param challenges The challenges during road construction to set
    */
   public void setChallenges(String challenges) {
     this.challenges = challenges;
   }
 
   /**
-   * A string method representation of the Road Construction project.
+   * A string method representation of the Road Construction project
    *
-   * @return A string containing details about the Road Construction project.
+   * @return A string containing details about the Road Construction project
    */
   @Override public String toString()
   {
