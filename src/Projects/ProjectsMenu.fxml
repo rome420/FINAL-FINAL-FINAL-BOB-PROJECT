@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="88.0" prefWidth="600.0">
+         <children>
+            <TextField prefHeight="28.0" prefWidth="149.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="25.0" />
+               </HBox.margin>
+            </TextField>
+            <HBox prefHeight="70.0" prefWidth="118.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="29.0" prefWidth="87.0" text="Search">
+                     <HBox.margin>
+                        <Insets left="10.0" top="25.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <MenuButton mnemonicParsing="false" prefHeight="30.0" prefWidth="110.0" text="Categorize By">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Residential" />
+                <MenuItem mnemonicParsing="false" text="Commercial" />
+                  <MenuItem mnemonicParsing="false" text="Road Construction" />
+                  <MenuItem mnemonicParsing="false" text="Industrial" />
+              </items>
+               <HBox.margin>
+                  <Insets top="25.0" />
+               </HBox.margin>
+            </MenuButton>
+            <HBox prefHeight="70.0" prefWidth="213.0">
+               <children>
+                  <Label prefHeight="54.0" prefWidth="144.0" text="Projects">
+                     <font>
+                        <Font name="System Bold Italic" size="37.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="25.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="275.0" prefWidth="600.0">
+         <children>
+            <ScrollPane prefHeight="283.0" prefWidth="600.0">
+               <content>
+                  <TableView prefHeight="259.0" prefWidth="582.0">
+                    <columns>
+                      <TableColumn prefWidth="179.20001524686813" text="Name" />
+                      <TableColumn prefWidth="203.2000274658203" text="Type" />
+                        <TableColumn prefWidth="289.5999450683594" text="Status" />
+                    </columns>
+                  </TableView>
+               </content>
+            </ScrollPane>
+         </children>
+      </HBox>
+      <HBox prefHeight="92.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="110.0" text="Add">
+                     <HBox.margin>
+                        <Insets left="50.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="110.0" text="Remove">
+                     <HBox.margin>
+                        <Insets left="50.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="110.0" text="Details">
+                     <HBox.margin>
+                        <Insets left="50.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
