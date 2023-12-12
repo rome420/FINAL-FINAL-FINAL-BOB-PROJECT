@@ -257,9 +257,9 @@ public class MyDate
   }
 
   /**
-   * A string method representation the date in the format "dd/mm/yyyy".
+   * A string method representation the date in the format "dd/mm/yyyy"
    *
-   * @return The string representation of the date.
+   * @return The string representation of the date
    */
   @Override public String toString () {
     return String.format("%02d/%02d/%04d", day, month, year);
