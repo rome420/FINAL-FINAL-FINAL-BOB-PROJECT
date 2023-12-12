@@ -7,7 +7,7 @@ public class ProjectTest {
   public static void main(String[] args) {
 
     /* there are multiple different projects created here i would say that project 5
-    is the structure we should standardize but each of them have diffrent structures
+    is the structure we should standardize but each of them have different structures
     on how to create them and they all work*/
 
     ProjectManager projectManager = new ProjectManager();
