@@ -1,19 +1,28 @@
 <html>
 <head><title>Projects</title></head>
-<body>
-  <div class="project">
-    <h2>Project ID: 1001</h2>
-    <p>Type: Industrial</p>
-    <p>Start Date: 23/03/2003</p>
-    <p>End Date: 00/00/0000</p>
-    <p>Expected Duration: 00/30/0000</p>
-    <p>Estimated Date: 23/09/2005</p>
-    <p>Estimated Price: $2000000.0</p>
-    <p>Project Status: New Build</p>
-    <p>Is Finished: false</p>
-    <p>Man Hours Used: 0.0</p>
-    <p>Square Meters: 0.0</p>
-    <p>Facility Type: null</p>
-  </div>
-</body>
+
+
+  <projects>
+    <project>
+      <projectID>1001</projectID>
+      <type>Industrial</type>
+      <startDate>2003-03-23</startDate>
+      <endDate>0000-00-00</endDate>
+      <expectedDuration>0000-00-30</expectedDuration>
+      <estimatedDate>2005-09-23</estimatedDate>
+      <estimatedPrice>2000000.0</estimatedPrice>
+      <projectStatus>New Build</projectStatus>
+      <isFinished>false</isFinished>
+      <manHoursUsed>0.0</manHoursUsed>
+      <squareMeters>0.0</squareMeters>
+      <facilityType>null</facilityType>
+    </project>
+
+    <project>
+
+
+    </project>
+
+
+  </projects>
 </html>
